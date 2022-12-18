@@ -21,6 +21,7 @@ public class test0 {
 		p.load(fis);
 		
 		
+		
 		WebDriver driver=new ChromeDriver();
 		driver.get(p.getProperty("url"));
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
@@ -29,6 +30,10 @@ public class test0 {
 		driver.findElement(By.id("pass")).sendKeys(p.getProperty("password"));
 		driver.findElement(By.name("login")).click();
 
+
+
+
+updating
 	}
 
 }
